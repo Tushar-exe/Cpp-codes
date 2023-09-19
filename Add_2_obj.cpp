@@ -14,7 +14,7 @@
 
      }
 
-     int show(Demo D)
+     int show(Demo &D)
      {
          this->a=this->a+D.a;
          return this->a;
@@ -48,7 +48,7 @@
         }
 
         void get();
-        Temp add(Temp T)
+        Temp add(Temp &T)
         {
             Temp obj;
             obj.a=this->a+T.a;
