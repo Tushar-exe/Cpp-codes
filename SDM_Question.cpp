@@ -231,7 +231,7 @@ int main()
             default:
                   cout<<"you have entered wrong option please choose from the given options.";
                   exit(0);
-                  break;
+                  
               }
       }
           
